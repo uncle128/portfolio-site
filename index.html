@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>张三｜电商作品集</title>
+    <meta name="description" content="张三的电商作品集网站，展示品牌官网、电商首页、落地页与转化优化案例。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" data-bind="brandName">张三</a>
+        <nav class="nav">
+          <a href="#work" data-bind="navWork">项目</a>
+          <a href="#services" data-bind="navServices">服务</a>
+          <a href="#about" data-bind="navAbout">关于</a>
+          <a href="#contact" data-bind="navContact">联系</a>
+        </nav>
+        <a class="nav-cta" href="#contact" data-bind="navCta">开始合作</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow" data-bind="heroEyebrow">Apple-inspired eCommerce Portfolio</p>
+            <h1>
+              <span data-bind="heroTitle">设计得很高级。</span><br />
+              <span class="hero-sub" data-bind="heroSubtitle">卖货也要很能打。</span>
+            </h1>
+            <p class="hero-text" data-bind="heroText">
+              一个参考苹果官网风格打造的电商作品集网站，用极简排版、大片留白和高质感视觉，展示你的品牌官网、电商首页和转化案例。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work" data-bind="heroButtonPrimary">查看作品</a>
+              <a class="button button-secondary" href="#services" data-bind="heroButtonSecondary">了解服务</a>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <strong data-bind="heroStat1Value">12+</strong>
+                <span data-bind="heroStat1Label">电商项目</span>
+              </div>
+              <div>
+                <strong data-bind="heroStat2Value">+41%</strong>
+                <span data-bind="heroStat2Label">最高转化提升</span>
+              </div>
+              <div>
+                <strong data-bind="heroStat3Value">7 figures</strong>
+                <span data-bind="heroStat3Label">影响 GMV</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal delay-1">
+            <div class="panel-shell">
+              <div class="panel-screen">
+                <p class="panel-tag" data-bind="panelTag">Featured Storefront</p>
+                <h2>
+                  <span data-bind="panelTitle">Quiet luxury.</span><br />
+                  <span data-bind="panelTitle2">Loud performance.</span>
+                </h2>
+                <p data-bind="panelText">
+                  为高端电商品牌打造更清晰的浏览节奏、产品叙事与购买路径，让网站看起来像品牌资产，而不只是一个货架。
+                </p>
+                <div class="panel-metrics">
+                  <div>
+                    <span data-bind="panelMetric1Label">转化率</span>
+                    <strong data-bind="panelMetric1Value">+38%</strong>
+                  </div>
+                  <div>
+                    <span data-bind="panelMetric2Label">移动端营收</span>
+                    <strong data-bind="panelMetric2Value">+52%</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow" data-bind="workEyebrow">Selected Work</p>
+            <h2 data-bind="workTitle">像产品发布页一样展示你的项目。</h2>
+            <p data-bind="workText">每个案例都应该不是“我做了啥”，而是“这个设计为什么值钱”。下面这三张卡，先给你放作品展示位。</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card dark reveal">
+              <div>
+                <p class="project-type" data-bind="project1Type">Featured Case Study</p>
+                <h3 data-bind="project1Title">项目一待补充</h3>
+                <p class="project-subtitle" data-bind="project1Subtitle">项目类型待补充</p>
+                <p class="project-desc" data-bind="project1Desc">这里先放项目介绍。你后面可以在设置面板里直接改成真实案例内容。</p>
+              </div>
+              <div class="project-footer">
+                <span data-bind="project1Metric">结果待补充</span>
+                <a href="#contact">查看完整案例</a>
+              </div>
+            </article>
+
+            <article class="project-card light reveal delay-1">
+              <div>
+                <p class="project-type" data-bind="project2Type">Growth System</p>
+                <h3 data-bind="project2Title">项目二待补充</h3>
+                <p class="project-subtitle" data-bind="project2Subtitle">项目类型待补充</p>
+                <p class="project-desc" data-bind="project2Desc">这里先放项目介绍。你后面可以在设置面板里直接改成真实案例内容。</p>
+              </div>
+              <div class="project-footer">
+                <span data-bind="project2Metric">结果待补充</span>
+                <a href="#contact">查看完整案例</a>
+              </div>
+            </article>
+
+            <article class="project-card blue reveal delay-2">
+              <div>
+                <p class="project-type" data-bind="project3Type">Performance Build</p>
+                <h3 data-bind="project3Title">项目三待补充</h3>
+                <p class="project-subtitle" data-bind="project3Subtitle">项目类型待补充</p>
+                <p class="project-desc" data-bind="project3Desc">这里先放项目介绍。你后面可以在设置面板里直接改成真实案例内容。</p>
+              </div>
+              <div class="project-footer">
+                <span data-bind="project3Metric">结果待补充</span>
+                <a href="#contact">查看完整案例</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section section-muted" data-section="services">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow" data-bind="servicesEyebrow">Services</p>
+            <h2 data-bind="servicesTitle">不只是做页面，是把电商体验做成品牌资产。</h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <h3 data-bind="service1Title">Storefront Design</h3>
+              <p data-bind="service1Desc">首页、PDP、系列页、活动页，整体调性统一又能承担转化任务。</p>
+            </article>
+            <article class="service-card reveal delay-1">
+              <h3 data-bind="service2Title">Conversion Strategy</h3>
+              <p data-bind="service2Desc">优化首屏表达、CTA、信任模块和购买动线，减少“看了很多，买得很少”。</p>
+            </article>
+            <article class="service-card reveal delay-2">
+              <h3 data-bind="service3Title">Brand Storytelling</h3>
+              <p data-bind="service3Desc">把品牌气质、产品卖点和视觉节奏融合起来，让高级感不只是空话。</p>
+            </article>
+            <article class="service-card reveal delay-3">
+              <h3 data-bind="service4Title">Responsive Systems</h3>
+              <p data-bind="service4Desc">兼顾桌面端质感和移动端效率，后续做活动和扩展页面也更省心。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section" data-section="about">
+        <div class="container about-grid">
+          <div class="reveal">
+            <p class="eyebrow" data-bind="aboutEyebrow">About</p>
+            <h2><span data-bind="aboutTitle">张三</span><br /><span data-bind="aboutSubtitle">专注电商设计与品牌官网体验。</span></h2>
+          </div>
+          <div class="reveal delay-1">
+            <p data-bind="aboutText1">这里建议后面替换成你的个人简介，比如你擅长的方向、项目经验和想做的岗位类型。</p>
+            <p data-bind="aboutText2">这个网站专门按照苹果官网那种内容节奏来写：短标题、大留白、强视觉主次、克制配色、卡片式分区。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta-section" data-section="contact">
+        <div class="container cta-box reveal">
+          <p class="eyebrow" data-bind="contactEyebrow">Contact</p>
+          <h2 data-bind="contactTitle">有想法，直接联系我。</h2>
+          <p data-bind="contactText">适合放手机号、微信、邮箱或求职意向。面试官点进来能一眼找到你。</p>
+          <div class="hero-actions centered">
+            <a class="button button-primary" data-bind="contactPrimary" data-bind-href="contactPrimaryHref" href="tel:13244422545">13244422545</a>
+            <a class="button button-secondary" data-bind="contactSecondary" data-bind-href="contactSecondaryHref" href="https://github.com/uncle128/portfolio-site" target="_blank" rel="noreferrer">GitHub 仓库</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p data-bind="footerText">© 2026 张三. All rights reserved.</p>
+        <div><a href="#top">Back to top</a></div>
+      </div>
+    </footer>
+
+    <button class="settings-trigger" id="settingsTrigger" aria-label="打开设置">⚙</button>
+
+    <div class="admin-overlay" id="adminOverlay" aria-hidden="true">
+      <div class="admin-login" id="adminLogin">
+        <h3>设置入口</h3>
+        <p>输入密码后即可编辑页面内容。</p>
+        <input id="adminPasswordInput" type="password" placeholder="输入密码" />
+        <div class="admin-row">
+          <button class="button button-primary" id="adminLoginBtn" type="button">进入设置</button>
+          <button class="button button-secondary" id="adminCloseBtn" type="button">取消</button>
+        </div>
+        <p class="admin-hint">默认密码可在 <code>site-config.json</code> 的 <code>adminPassword</code> 修改。</p>
+        <p class="admin-error" id="adminError"></p>
+      </div>
+
+      <aside class="admin-panel hidden" id="adminPanel">
+        <div class="admin-panel-head">
+          <div>
+            <h3>页面设置</h3>
+            <p>这里改内容会立即预览。要让别人也看到，请导出并上传 <code>site-config.json</code>。</p>
+          </div>
+          <button class="admin-close-x" id="adminPanelClose" type="button">×</button>
+        </div>
+
+        <div class="admin-actions sticky-actions">
+          <button class="button button-primary" id="saveLocalBtn" type="button">保存到当前浏览器</button>
+          <button class="button button-secondary" id="exportBtn" type="button">导出配置</button>
+        </div>
+
+        <div class="admin-section">
+          <h4>基础信息</h4>
+          <label>名字<input data-config-key="brandName" type="text" /></label>
+          <label>简介主标题<input data-config-key="aboutTitle" type="text" /></label>
+          <label>简介副标题<input data-config-key="aboutSubtitle" type="text" /></label>
+          <label>联系方式按钮文字<input data-config-key="contactPrimary" type="text" /></label>
+          <label>联系方式链接<input data-config-key="contactPrimaryHref" type="text" /></label>
+        </div>
+
+        <div class="admin-section">
+          <h4>首页首屏</h4>
+          <label>小标题<input data-config-key="heroEyebrow" type="text" /></label>
+          <label>主标题<input data-config-key="heroTitle" type="text" /></label>
+          <label>副标题<input data-config-key="heroSubtitle" type="text" /></label>
+          <label>说明文案<textarea data-config-key="heroText" rows="4"></textarea></label>
+        </div>
+
+        <div class="admin-section">
+          <h4>项目一</h4>
+          <label>项目名称<input data-config-key="project1Title" type="text" /></label>
+          <label>项目类型<input data-config-key="project1Subtitle" type="text" /></label>
+          <label>项目介绍<textarea data-config-key="project1Desc" rows="4"></textarea></label>
+          <label>项目结果<input data-config-key="project1Metric" type="text" /></label>
+        </div>
+
+        <div class="admin-section">
+          <h4>项目二</h4>
+          <label>项目名称<input data-config-key="project2Title" type="text" /></label>
+          <label>项目类型<input data-config-key="project2Subtitle" type="text" /></label>
+          <label>项目介绍<textarea data-config-key="project2Desc" rows="4"></textarea></label>
+          <label>项目结果<input data-config-key="project2Metric" type="text" /></label>
+        </div>
+
+        <div class="admin-section">
+          <h4>项目三</h4>
+          <label>项目名称<input data-config-key="project3Title" type="text" /></label>
+          <label>项目类型<input data-config-key="project3Subtitle" type="text" /></label>
+          <label>项目介绍<textarea data-config-key="project3Desc" rows="4"></textarea></label>
+          <label>项目结果<input data-config-key="project3Metric" type="text" /></label>
+        </div>
+
+        <div class="admin-section">
+          <h4>板块开关</h4>
+          <label class="checkbox"><input data-config-key="showServices" type="checkbox" /> 显示服务板块</label>
+          <label class="checkbox"><input data-config-key="showAbout" type="checkbox" /> 显示关于板块</label>
+          <label class="checkbox"><input data-config-key="showContact" type="checkbox" /> 显示联系板块</label>
+        </div>
+
+        <div class="admin-section">
+          <h4>辅助操作</h4>
+          <button class="button button-secondary" id="importBtn" type="button">导入配置文件</button>
+          <button class="button button-secondary" id="resetBtn" type="button">恢复默认配置</button>
+          <input id="importFileInput" type="file" accept="application/json" hidden />
+          <p class="admin-hint">导出后的 <code>site-config.json</code> 上传到仓库根目录，GitHub Pages 会重新发布，面试官打开链接就能看到最新版。</p>
+        </div>
+      </aside>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
